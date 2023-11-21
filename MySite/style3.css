@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+nav {
+    background-image: url(pictures/valwal.jpg);
+    background-position: center;
+    background-size: 40%;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ffffff86;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #FC4756;
+}
+
+.info-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    text-align: center;
+    padding: 150px;
+}
+
+.info-agent, .info-guns, .info-stats {
+    font-size: 24px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.agent-block img {
+    max-width: 110%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-guns table {
+    width: 100%;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.info-guns th, .info-guns td {
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.info-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stats-block {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

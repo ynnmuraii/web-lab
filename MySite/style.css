@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: auto 1fr auto; /* Header, Main Content, Footer */
+    grid-template-rows: auto 1fr auto; 
     min-height: 100vh;
 }
 
@@ -43,7 +43,7 @@ nav a:hover {
 
 .main-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted width to 200px */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 20px;
     justify-content: space-around;
     align-items: stretch;

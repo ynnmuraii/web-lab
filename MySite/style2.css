@@ -44,7 +44,7 @@ nav a:hover {
 
 .resume-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted width to 200px */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     justify-content: space-around;
     align-items: stretch;
